@@ -160,3 +160,17 @@ a {
 .heading-content {
   position: relative;
 }
+
+.centered-stuff:not(.floating) {
+  overflow: hidden;
+}
+
+.centered-stuff.floating {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.centered-stuff.floating .max-width-wrapper {
+  height: 100%;
+}
